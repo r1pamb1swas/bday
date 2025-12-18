@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Love</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background-image: url(./bg.jpg);
+      background-size: cover;
+      color: #f5f5f7;
+      line-height: 1.6;
+    }
+    header {
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      padding: 4rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .story {
+      text-align: center;
+    }
+    .story h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .story p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.2rem;
+      margin-top: 2.5rem;
+    }
+    .photo {
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .photo:hover img {
+      transform: scale(1.08);
+    }
+    .caption {
+      position: absolute;
+      inset: 0;
+      background: rgba(15,15,20,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .photo:hover .caption {
+      opacity: 1;
+    }
+    .caption p {
+      font-size: 1rem;
+    }
+    .ending {
+      text-align: center;
+      background: linear-gradient(180deg, #0f0f14, #1a1a2e);
+      border-radius: 24px;
+      padding: 3rem 2rem;
+      margin-top: 4rem;
+    }
+    .ending h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Header Image -->
+    <img src="header.jpg" alt="" style="max-width:280px;border-radius:24px;box-shadow:0 12px 30px rgba(0,0,0,0.45);margin-bottom:1.5rem;" />
+    <h1>Happy Birthday Moniya Moni Sontu❤️</h1>
+    <p>
+      .
+    </p>
+  </header>
+
+  <section class="story">
+    <!-- Story Intro Image -->
+    <img src="story.jpg" alt="Our Journey" style="max-width:320px;border-radius:24px;box-shadow:0 12px 30px rgba(0,0,0,0.45);margin:0 auto 2rem;display:block;" />
+    <h2>Amader Kichu Muhurto</h2>
+    <p>
+      First of all thank you for being my bestest friend even when tomay dosta khisti mere kotha boli na, ar ki boliiiiii ha always know your worth and keep reminding me mine tui chara keo emn kore bole na 
+    </p>
+
+    <div class="gallery">
+      <!-- Replace image filenames and captions -->
+      <div class="photo">
+        <img src="photo1.jpg" alt="Memory 1" />
+        <div class="caption"><p> first pic ta vlo na tai eta dilam</p></div>
+      </div>
+      <div class="photo">
+        <img src="photo2.jpg" alt="Memory 2" />
+        <div class="caption"><p> mone ache pujoy chile na bole pujor por pisir bari ele ghurte gelam se ki excitement</p></div>
+      </div>
+      <div class="photo">
+        <img src="photo3.jpg" alt="Memory 3" />
+        <div class="caption"><p>2 year pujo kore hediye oi pic guloi payni 😔</p></div>
+      </div>
+      <div class="photo">
+        <img src="photo4.jpg" alt="Memory 4" />
+        <div class="caption"><p>our first solo trip ar amr most cherised akta memory, p.s. missing the Sex 🌚</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ending">
+    <h2>To A Lifetime Together (na hole kelabo)</h2>
+    <p>
+      ar sorry onk jalay tore paglami o kori hurt o kore feli but you know i really care "babu" (must be ages that i havent called you that)
+    </p>
+  </section>
+
+  <footer>
+    Korte onk tai Late hoye jeto tai chatgpt use kora (^_~) 
+  </footer>
+
+</body>
+</html>
